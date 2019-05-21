@@ -34,7 +34,7 @@ bundle init
 The command "bundle init" will initialize a ruby project and create a file called Gemfile
 
 Inside Gemfile write the text bellow: 
-```
+```ruby
 source "https://rubygems.org"
 
 gem 'rspec'
@@ -49,5 +49,18 @@ inside folder unitTest type the command:
 ```
 rspec --init
 ``` 
-So... In new folder created by RSpec 'unitTest\ *spec*', we must to create a new file called spec_example.rb 
+So... In new folder created by RSpec 'unitTest\ *spec*', we must to create a new file called example_spec.rb. Inside example_spec.rb we'll create our scenarios:
+
+```ruby
+describe 'suit rspec' do 
+    it 'sum of values' do
+        sum = 10 + 5
+        expect(sum).to eql 15
+    end
+    it 'soma de valores string' do
+        soma = 10 + 5
+        expect(soma.to_s).to eql '15'
+    end
+end
+```
 
