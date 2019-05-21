@@ -6,7 +6,7 @@ I created this repository to learn about unit test using rspec
 * We need to install [ruby](https://rubyinstaller.org/downloads/) on windows (Sorry I use windows rsrs)
 please, download the recommendation version with devkit.
 
-> **Observação:** Attention! close any prompt before instalation
+> **Attention!**  close any prompt before instalation
 
 after install ruby execute the following command:
 ```
@@ -20,6 +20,13 @@ Open the Cmder and type the command to create a new folder:
 ```
 mkdir learningRspec
 ```
+Inside folder learningRspec, create a new folder called unitTest:
+```
+cd learningRspec
+```
+```
+mkdir unitTest
+```
 then inside the new folder, type the command:
 ```
 bundle init
@@ -32,4 +39,14 @@ source "https://rubygems.org"
 
 gem 'rspec'
 ```
+Now we need type the command in Cmder:
+```
+bundle install
+``` 
+## Now we going to create the estructure to use the RSpec
+
+inside folder unitTest type the command:
+```
+rspec --init
+``` 
 
