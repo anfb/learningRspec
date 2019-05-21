@@ -5,7 +5,9 @@ I created this repository to learn about unit test using rspec
 ### Instalations
 * We need to install [ruby](https://rubyinstaller.org/downloads/) on windows (Sorry I use windows rsrs)
 please, download the recommendation version with devkit.
-*Attention! close any prompt before instalation*
+
+> **Observação:** Attention! close any prompt before instalation
+
 after install ruby execute the following command:
 ```
 ridk install 
@@ -23,6 +25,7 @@ then inside the new folder, type the command:
 bundle init
 ``` 
 The command "bundle init" will initialize a ruby project and create a file called Gemfile
+
 Inside Gemfile write the text bellow: 
 ```ruby
 source "https://rubygems.org"
