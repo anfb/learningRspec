@@ -13,7 +13,7 @@ after install ruby execute the following command:
 ridk install 
 ```
 * We need to install Console Emulator([Cmder](https://cmder.net/)) 
-* We need use any text editor, I'll use the Visual Studio Code [VScode](https://code.visualstudio.com/)
+* We need use any text editor, I'll use the Visual Studio Code ([VScode](https://code.visualstudio.com/))
 
 ### first step 
 Open the Cmder and type the command to create a new folder:
