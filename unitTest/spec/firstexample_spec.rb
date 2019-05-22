@@ -1,4 +1,4 @@
-describe 'suit rspec' do 
+describe 'suit rspec' do
     it 'sum of values' do
         sum = 10 + 5
         expect(sum).to eql 15
