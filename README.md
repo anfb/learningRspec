@@ -64,3 +64,9 @@ describe 'suit rspec' do
 end
 ```
 
+```
+Todos os testes: rspec
+Testes de um arquivo específico: rspec spec\cashout_spec.rb
+Testes exibindo os casos de testes: rspec spec\cashout_spec.rb -fd
+```
+
