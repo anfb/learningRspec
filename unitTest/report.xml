@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="22" skipped="0" failures="0" errors="0" time="0.075857" timestamp="2019-05-24T11:37:16-03:00" hostname="WIN10-WRGBEX6T">
+<properties>
+<property name="seed" value="1111"/>
+</properties>
+<testcase classname="spec.bank.cashoutcc_spec" name="ContaCorrente cashOut cash out in checking account the new customer balance is R$ 800" file="./spec/bank/cashoutcc_spec.rb" time="0.007102"></testcase>
+<testcase classname="spec.bank.cashoutcc_spec" name="ContaCorrente cashOut cash out in checking account but hasnt balance system must to show the mesage" file="./spec/bank/cashoutcc_spec.rb" time="0.000094"></testcase>
+<testcase classname="spec.bank.cashoutcc_spec" name="ContaCorrente cashOut cash out in checking account but hasnt balance the final balance should be R$ 0" file="./spec/bank/cashoutcc_spec.rb" time="0.000073"></testcase>
+<testcase classname="spec.bank.cashoutcc_spec" name="ContaCorrente cashOut cash out in checking account but not balace enough system must to show the mesage" file="./spec/bank/cashoutcc_spec.rb" time="0.000057"></testcase>
+<testcase classname="spec.bank.cashoutcc_spec" name="ContaCorrente cashOut cash out in checking account but not balace enough final balance should be R$ 500" file="./spec/bank/cashoutcc_spec.rb" time="0.000065"></testcase>
+<testcase classname="spec.bank.cashoutcc_spec" name="ContaCorrente cashOut limit cash out in checking account system must to show the mesage" file="./spec/bank/cashoutcc_spec.rb" time="0.000092"></testcase>
+<testcase classname="spec.bank.cashoutcc_spec" name="ContaCorrente cashOut limit cash out in checking account final balance should be R$ 500" file="./spec/bank/cashoutcc_spec.rb" time="0.000111"></testcase>
+<testcase classname="spec.bank.cashoutcp_spec" name="ContaPoupanca cashOut cash out in checking account the new customer balance is R$ 800" file="./spec/bank/cashoutcp_spec.rb" time="0.000139"></testcase>
+<testcase classname="spec.bank.cashoutcp_spec" name="ContaPoupanca cashOut cash out in checking account but hasnt balance system must to show the mesage" file="./spec/bank/cashoutcp_spec.rb" time="0.000112"></testcase>
+<testcase classname="spec.bank.cashoutcp_spec" name="ContaPoupanca cashOut cash out in checking account but hasnt balance the final balance should be R$ 0" file="./spec/bank/cashoutcp_spec.rb" time="0.000087"></testcase>
+<testcase classname="spec.bank.cashoutcp_spec" name="ContaPoupanca cashOut cash out in checking account but not balace enough system must to show the mesage" file="./spec/bank/cashoutcp_spec.rb" time="0.000100"></testcase>
+<testcase classname="spec.bank.cashoutcp_spec" name="ContaPoupanca cashOut cash out in checking account but not balace enough final balance should be R$ 500" file="./spec/bank/cashoutcp_spec.rb" time="0.000106"></testcase>
+<testcase classname="spec.bank.cashoutcp_spec" name="ContaPoupanca cashOut limit cash out in checking account system must to show the mesage" file="./spec/bank/cashoutcp_spec.rb" time="0.000159"></testcase>
+<testcase classname="spec.bank.cashoutcp_spec" name="ContaPoupanca cashOut limit cash out in checking account final balance should be R$ 500" file="./spec/bank/cashoutcp_spec.rb" time="0.000126"></testcase>
+<testcase classname="spec.examples_spec" name="Avanger Should to add one avanger" file="./spec/examples_spec.rb" time="0.000081"></testcase>
+<testcase classname="spec.examples_spec" name="Avanger Should to verify if exist avanger" file="./spec/examples_spec.rb" time="0.015728"></testcase>
+<testcase classname="spec.examples_spec" name="Avanger Should to verify size" file="./spec/examples_spec.rb" time="0.019054"></testcase>
+<testcase classname="spec.examples_spec" name="Avanger Should to verify if Spiderman is the First of list" file="./spec/examples_spec.rb" time="0.006456"></testcase>
+<testcase classname="spec.examples_spec" name="Avanger Should to verify if contains last name" file="./spec/examples_spec.rb" time="0.008238"></testcase>
+<testcase classname="spec.firstexample_spec" name="suit rspec sum of values" file="./spec/firstexample_spec.rb" time="0.000101"></testcase>
+<testcase classname="spec.firstexample_spec" name="suit rspec soma de valores string" file="./spec/firstexample_spec.rb" time="0.000056"></testcase>
+<testcase classname="spec.person_spec" name="Person add a new person" file="./spec/person_spec.rb" time="0.000074"></testcase>
+</testsuite>

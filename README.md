@@ -64,9 +64,14 @@ describe 'suit rspec' do
 end
 ```
 
+Run tests with RSpec
 ```
-Todos os testes: rspec
-Testes de um arquivo específico: rspec spec\cashout_spec.rb
-Testes exibindo os casos de testes: rspec spec\cashout_spec.rb -fd
+Run all tests: rspec
+Run specific test file: rspec spec\cashout_spec.rb
+Run tests and show test case: rspec spec\cashout_spec.rb -fd
 ```
 
+Generate reports in Junit Format:
+```
+rspec --format RspecJunitFormatter --out report.xml
+```
